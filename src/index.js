@@ -9,4 +9,10 @@ textarea.addEventListener('keyup', (event) =>{
     //console.log(characterCount);
     document.getElementById("caracteres").innerHTML=characterCount;
 
-})
+});
+
+let button =document.getElementById("reset-button");
+button.addEventListener("click", ()=>{
+    let textarea = document.querySelector("textarea");
+    textarea.value = '';
+});
