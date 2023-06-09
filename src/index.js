@@ -14,5 +14,5 @@ let button =document.getElementById("reset-button");
     button.addEventListener("click", ()=>{
     let textarea = document.querySelector("textarea");
     textarea.value ='';
-    document.getElementById("characters").innerHTML='';
+    document.getElementById("characters").innerHTML='0';
 });
