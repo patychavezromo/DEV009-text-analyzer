@@ -33,7 +33,7 @@ textarea {
 }
 
 
-.lista {  
+.list {  
     list-style-type: none;
     margin: 5% auto; 
     padding: 0;
@@ -50,7 +50,7 @@ textarea {
     text-align: center;
 }
 
-.elementos{
+.elements{
     display: inline-block;
     background-color: #58008045;
     font-size: 25px;
