@@ -8,7 +8,7 @@ body{
 }
 
 
-h1 {
+header {
     text-align: center; 
     font-size: 2.6rem;
     text-shadow: #555 2px 2px 3px;
@@ -20,8 +20,7 @@ h1 {
 
 
 
-textarea {
-    
+textarea[name="user-input"]{    
     font-size: 20px;
     color: #2124d3;
     background-color: #19d73890;
@@ -54,4 +53,5 @@ textarea {
     display: inline-block;
     background-color: #58008045;
     font-size: 25px;
+    text-align: center;
 }
