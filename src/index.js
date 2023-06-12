@@ -10,6 +10,12 @@ textarea.addEventListener('keyup', (event) =>{
 
     let wordCount=analyzer.getWordCount(text);
     document.getElementById("words").innerHTML=wordCount;
+
+    let charactersWithoutSpaces= analyzer.getCharacterCountExcludingSpaces(text);
+    document.getElementById("charactersWithoutSpaces").innerHTML=charactersWithoutSpaces;
+
+    let numbersCount= analyzer.getNumberCount(text);
+    document.getElementById("numbers").innerHTML=numbersCount;
 });
 
 
@@ -20,4 +26,6 @@ let button =document.getElementById("reset-button");
     textarea.value ='';
     document.getElementById("characters").innerHTML='0';
     document.getElementById("words").innerHTML='0';
+    document.getElementById("charactersWithoutSpaces").innerHTML='0';
+    document.getElementById("numbers").innerHTML='0';
 });
