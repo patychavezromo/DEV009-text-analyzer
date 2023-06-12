@@ -4,7 +4,6 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    
 }
 
 
@@ -37,6 +36,9 @@ textarea[name="user-input"]{
     margin: 5% auto; 
     padding: 0;
     width: 25%;
+    text-align: center;
+    font-size: 25px;
+
 }
 
 #reset-button {
@@ -52,6 +54,5 @@ textarea[name="user-input"]{
 .elements{
     display: inline-block;
     background-color: #58008045;
-    font-size: 25px;
-    text-align: center;
+    border-radius: 5px;
 }
