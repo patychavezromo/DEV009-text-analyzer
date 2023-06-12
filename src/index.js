@@ -16,6 +16,9 @@ textarea.addEventListener('keyup', (event) =>{
 
     let numbersCount= analyzer.getNumberCount(text);
     document.getElementById("numbers").innerHTML=numbersCount;
+
+    let sumOfNumbers= analyzer.getNumberSum(text);
+    document.getElementById("sumOfNumbers").innerHTML=sumOfNumbers;
 });
 
 
@@ -28,4 +31,5 @@ let button =document.getElementById("reset-button");
     document.getElementById("words").innerHTML='0';
     document.getElementById("charactersWithoutSpaces").innerHTML='0';
     document.getElementById("numbers").innerHTML='0';
+    document.getElementById("sumOfNumbers").innerHTML='0';
 });
