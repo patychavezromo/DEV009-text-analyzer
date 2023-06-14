@@ -53,28 +53,34 @@ const analyzer = {
   },
   getNumberCount: (text) => {
     //TODO: esta función debe retornar cúantos números se encuentran en el parámetro `text` de tipo `string`.
-    const regex = /(\d+)/g;
-    const numbers= text.match(regex);
+    const allWords= text.split(' ');
+    const allWordsNotEmpty=[];
     let totalNumbers=0;
-    if(numbers){
-      totalNumbers=numbers.length;
+    for(let i=0; i<allWords.length; i++){
+      const currentWord=allWords[i];
+      if(currentWord !== '' ){
+        if(!isNaN(currentWord)){
+          allWordsNotEmpty.push(parseFloat(currentWord));
+        }
+      }      
     }
+    totalNumbers=allWordsNotEmpty.length;    
     
-    return totalNumbers;
-
-
+    return totalNumbers; 
   },
+
   getNumberSum: (text) => {
     //TODO: esta función debe retornar la suma de todos los números que se encuentran en el parámetro `text` de tipo `string`.
-    const regex = /(\d+)/g;
-    const numbers= text.match(regex);
-    let sum=0;
-    if(numbers){
-      for(let i=0; i<numbers.length; i++){
-        const currentNumber=numbers[i];
-        sum= sum+parseInt(currentNumber);
+    const allWords=text.split(' ');
+    let sum=0.0;
+    for(let i=0; i<allWords.length; i++){
+      const currentWord=allWords[i];
+      if(currentWord !== ''){
+        if(!isNaN(currentWord)){
+          sum =sum + parseFloat(currentWord);          
+        }
       }
-    }    
+    }
     return sum;
   },
 };
