@@ -1,7 +1,7 @@
 import analyzer from './analyzer.js';
 
 //TODO: escuchar eventos del DOM e invocar  los métodos del objeto `analyzer`
-let textarea = document.querySelector("textarea");
+const textarea = document.querySelector("textarea");
 
 textarea.addEventListener('keyup', (event) =>{
     let text = event.target.value;
@@ -19,6 +19,9 @@ textarea.addEventListener('keyup', (event) =>{
 
     let sumOfNumbers= analyzer.getNumberSum(text);
     document.getElementById("sumOfNumbers").innerHTML=sumOfNumbers;
+
+    let averageWordLength= analyzer.getAverageWordLength(text);
+    document.getElementById("average").innerHTML=averageWordLength;
 });
 
 
@@ -32,4 +35,5 @@ let button =document.getElementById("reset-button");
     document.getElementById("charactersWithoutSpaces").innerHTML='0';
     document.getElementById("numbers").innerHTML='0';
     document.getElementById("sumOfNumbers").innerHTML='0';
+    document.getElementById("average").innerHTML='0';
 });
