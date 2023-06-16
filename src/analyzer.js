@@ -72,7 +72,7 @@ const analyzer = {
   getNumberSum: (text) => {
     //TODO: esta función debe retornar la suma de todos los números que se encuentran en el parámetro `text` de tipo `string`.
     const allWords=text.split(' ');
-    let sum=0.0;
+    let sum=0;
     for(let i=0; i<allWords.length; i++){
       const currentWord=allWords[i];
       if(currentWord !== ''){

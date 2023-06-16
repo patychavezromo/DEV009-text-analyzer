@@ -9,7 +9,7 @@ body{
 
 header {
     text-align: center; 
-    font-size: 60px;
+    font-size: 50px;
     text-shadow: #555 2px 2px 3px;
     color: #e7e7ef;
     background: #3925c4bf;
@@ -21,12 +21,12 @@ header {
 
 
 textarea[name="user-input"]{    
-    font-size: 40px;
+    font-size: 50px;
     color: #333333;
     background-color: #dbeade8f;
     margin: auto;
     display: block;
-    border-radius: 15px;
+    border-radius: 20px;
     text-align: center;
     font-style: italic;
     border: solid 5px #4e155dbb;
@@ -45,7 +45,7 @@ textarea[name="user-input"]{
     margin: 1% auto 5% auto;
     display: block;
     color-scheme: dark;
-    font-size: 60px;
+    font-size: 50px;
     border-radius: 15px;
     background-color: #46800078;
     text-align: center;

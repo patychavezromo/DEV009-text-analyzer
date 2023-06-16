@@ -1,4 +1,15 @@
-# Analizador de texto
+# **Analizador de texto**
+
+### **ÍNDICE**
+___
+* 1. [Características generales de su funcionamiento.] (#item1)
+* 2. Prototipo de baja fidelidad. 
+* 3. Funcionamiento de las métricas. 
+
+____
+<a name="item1"></a>
+###  **1. Características:**
+___
 
 Permite ingresar el texto de su preferencia y visualizar en tiempo real el valor de seis métricas: 
 * Caracteres, 
@@ -14,12 +25,21 @@ Contiene recuadro de texto, donde se invita a colocar ya sea escribir o pegar el
 
 Contiene un boton que limpia el área de texto.
 
+___
 
-
-
-## Prototipo de baja fidelidad
+### **2. Prototipo de baja fidelidad**
+___
 
 ![prototipo text analyzer](./src/imagenes/prototipo%20BF.jpg)
+
+____
+
+
+### **3. Funcionamiento de las métricas**
+_____
+
+
+
 
 
 
