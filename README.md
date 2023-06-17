@@ -2,8 +2,9 @@
 ___
 
 
-### **ÍNDICE**
+## **ÍNDICE**
 ___
+### **Temas:**
 
 * [1. Características generales](#1-características-generales)
 * [2. Prototipo de baja fidelidad](#2-prototipo-de-baja-fidelidad)
@@ -11,6 +12,7 @@ ___
 * [4. Funcionamiento del boton limpiar texto](#4-funcionamiento-del-boton-limpiar-texto)
 * [5. Diseño de la aplicación](#5-diseño-de-la-aplicación)
 * [6. Referencias](#6-referencias)
+
 
 ___
 ____
@@ -32,19 +34,23 @@ Contiene recuadro de texto, donde se invita a colocar ya sea escribir o pegar el
 
 Contiene un boton que limpia el área de texto.
 
+* [volver a indice](#temas)
+
 ___
 ___
 
 ## **2. Prototipo de baja fidelidad**
 ___
 
-![prototipo text analyzer](./src/imagenes/prototipo%20BF.jpg)
+![prototipo text analyzer](./src/imagenes/prototipo%20BF.jpg)  
+
+* [volver a indice](#temas)
 
 ____
 ____
 
 
-### **3. Funcionamiento de las métricas**
+## **3. Funcionamiento de las métricas**
 _____
 Cada métrica mostrará a su derecha el resultado en tiempo real del parámetro para la cual fue diseñada.  
 Una vez el usuario ingrese el texto que desea validar las métricas mostraran lo siguiente:
@@ -61,18 +67,22 @@ Una vez el usuario ingrese el texto que desea validar las métricas mostraran lo
 
 * **Longitud media de las palabras**: esta métrica cuenta el total de caracteres sin incluir espacios y la cantidad de palabras, para poder obtener el cociente de la división entre estas, el resultado obtenido sera el promedio de caracteres por palabra.
 
+
+* [volver a indice](#temas)
 ____
 ____
 
-### **4. Funcionamiento del boton limpiar texto**
+## **4. Funcionamiento del boton limpiar texto**
 ____
 
-Este elemento se coloca por debajo del área de la caja texto, y nos permite vaciar la información contenida dentro de ella. Esta acción sucede cada vez que se de un click sobre este.
+Este elemento se coloca por debajo del área de la caja texto, y nos permite vaciar la información contenida dentro de ella. Esta acción sucede cada vez que se de un click sobre este.  
+
+* [volver a indice](#temas)
 
 ____
 ____
 
-### **5. Diseño de la aplicación**
+## **5. Diseño de la aplicación**
 
 Se utilizan las reglas básicas de diseño visual 
 
@@ -82,7 +92,9 @@ Se utilizan las reglas básicas de diseño visual
 
 3. El contenido principal se alinea de forma centrada junto con los demas elementos.
 
-![prototipo alta fidelidad text analyzer](./src/imagenes/prototipoDeAltaFidelidad.jpg)
+![prototipo alta fidelidad text analyzer](./src/imagenes/prototipoDeAltaFidelidad.jpg)  
+
+* [volver a indice](#temas)
 
 ____
 ____
@@ -122,7 +134,9 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/con
 *BUCLES*  
 *FOR* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for  
 *DEFINICIÓN DE FUNCIONES*  
-https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Functions  
+https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Functions    
+
+* [volver a indice](#temas)
 ____
 
 ____
