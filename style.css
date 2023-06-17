@@ -1,0 +1,106 @@
+
+body{
+    background-image: url(./imagenes/fondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+header {
+    text-align: center; 
+    font-size: 50px;
+    text-shadow: #555 2px 2px 3px;
+    color: #e7e7ef;
+    background: #3925c4bf;
+    margin: 2% 20% 2% 20%;
+    border-radius: 20px;
+    border: solid 5px #4e155dbb;    
+}
+
+
+
+textarea[name="user-input"]{    
+    font-size: 50px;
+    color: #333333;
+    background-color: #dbeade8f;
+    margin: auto;
+    display: block;
+    border-radius: 20px;
+    text-align: center;
+    font-style: italic;
+    border: solid 5px #4e155dbb;
+}
+
+
+.list {  
+    list-style-type: none;
+    margin: 5% auto 1% auto;
+    padding: 0;
+    text-align: center;
+    color: #333333;
+}
+
+#reset-button {
+    margin: 1% auto 5% auto;
+    display: block;
+    color-scheme: dark;
+    font-size: 50px;
+    border-radius: 15px;
+    background-color: #46800078;
+    text-align: center;
+    border: solid 5px #155d1d;
+}
+
+.elements{
+    display: inline-block;
+    background-color: #d4904745;
+    border-radius: 5px;
+    border: solid 2.5px #4e155dbb;
+    font-size: 50px;
+}
+
+footer {
+    background: gold;
+    font-size: 50px;
+    text-align: center;
+    color: #faf3f3;
+    background-color: #2d301f6b;
+    font-style: italic;
+}
+
+#characters {
+    color:#333333;
+    background: #f5f4f7;
+    border-radius: 15px;
+}
+
+#charactersWithoutSpaces {
+    color:#333333;
+    background: #f5f4f7;
+    border-radius: 15px;
+}
+
+#words {
+    color:#333333;
+    background: #f5f4f7;
+    border-radius: 15px;
+}
+
+#numbers {
+    color:#333333;
+    background: #f5f4f7;
+    border-radius: 15px;
+}
+
+#sumOfNumbers {
+    color:#333333;
+    background: #f5f4f7;
+    border-radius: 15px;
+}
+
+#average {
+    color:#333333;
+    background: #f5f4f7;
+    border-radius: 15px;
+}
