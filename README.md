@@ -1,17 +1,21 @@
 # **Analizador de texto**
+___
+
 
 ### **ÍNDICE**
 ___
-1. Características generales de su funcionamiento. 
-2. Prototipo de baja fidelidad. 
-3. Funcionamiento de las métricas. 
-4. Funcionamiento del boton "limpiar texto".
-5. Diseño de la aplicación.
-6. Referencias.
 
+* [1. Características generales](#1-características-generales)
+* [2. Prototipo de baja fidelidad](#2-prototipo-de-baja-fidelidad)
+* [3. Funcionamiento de las métricas](#3-funcionamiento-de-las-métricas)
+* [4. Funcionamiento del boton limpiar texto](#4-funcionamiento-del-boton-limpiar-texto)
+* [5. Diseño de la aplicación](#5-diseño-de-la-aplicación)
+* [6. Referencias](#6-referencias)
+
+___
 ____
 
-###  **1. Características:**
+## **1. Características generales**
 ___
 
 Permite ingresar el texto de su preferencia y visualizar en tiempo real el valor de seis métricas: 
@@ -29,18 +33,20 @@ Contiene recuadro de texto, donde se invita a colocar ya sea escribir o pegar el
 Contiene un boton que limpia el área de texto.
 
 ___
+___
 
-### **2. Prototipo de baja fidelidad**
+## **2. Prototipo de baja fidelidad**
 ___
 
 ![prototipo text analyzer](./src/imagenes/prototipo%20BF.jpg)
 
 ____
+____
 
 
 ### **3. Funcionamiento de las métricas**
 _____
-Cada métrica mostrará a su derecha el resultado en tiempo real del parámetro para el cual fue diseñada, conforme se ingrese texto.
+Cada métrica mostrará a su derecha el resultado en tiempo real del parámetro para la cual fue diseñada.  
 Una vez el usuario ingrese el texto que desea validar las métricas mostraran lo siguiente:
 
 * **Caracteres**: la app cuenta el total de carateres incluyendo espacios y signos.
@@ -56,12 +62,14 @@ Una vez el usuario ingrese el texto que desea validar las métricas mostraran lo
 * **Longitud media de las palabras**: esta métrica cuenta el total de caracteres sin incluir espacios y la cantidad de palabras, para poder obtener el cociente de la división entre estas, el resultado obtenido sera el promedio de caracteres por palabra.
 
 ____
+____
 
-### **4. Funcionamiento del boton "limpiar texto".**
+### **4. Funcionamiento del boton limpiar texto**
 ____
 
 Este elemento se coloca por debajo del área de la caja texto, y nos permite vaciar la información contenida dentro de ella. Esta acción sucede cada vez que se de un click sobre este.
 
+____
 ____
 
 ### **5. Diseño de la aplicación**
@@ -77,7 +85,8 @@ Se utilizan las reglas básicas de diseño visual
 ![prototipo alta fidelidad text analyzer](./src/imagenes/prototipoDeAltaFidelidad.jpg)
 
 ____
-### **Referencias:**
+____
+## **6. Referencias**
 ____
 
 *HTML SEMÁNTICO*: https://platzi.com/clases/1802-accesibilidad-web/26072-que-es-el-html-semantico-y-por-que-es-importante/
@@ -114,6 +123,12 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/con
 *FOR* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for  
 *DEFINICIÓN DE FUNCIONES*  
 https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Functions  
+____
+
+____
+
+
+
 
 
 
