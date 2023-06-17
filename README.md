@@ -2,12 +2,12 @@
 
 ### **ÍNDICE**
 ___
-* 1. Características generales de su funcionamiento. 
-* 2. Prototipo de baja fidelidad. 
-* 3. Funcionamiento de las métricas. 
-* 4. Funcionamiento del boton "limpiar texto".
-* 5. Diseño de la aplicación.
-* 6. Referencias.
+1. Características generales de su funcionamiento. 
+2. Prototipo de baja fidelidad. 
+3. Funcionamiento de las métricas. 
+4. Funcionamiento del boton "limpiar texto".
+5. Diseño de la aplicación.
+6. Referencias.
 
 ____
 
@@ -114,7 +114,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/con
 *FOR* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for  
 *DEFINICIÓN DE FUNCIONES*  
 https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Functions  
- 
+
 
 
 
