@@ -8,52 +8,47 @@
 </head>
 
 <body>
+
   <header>
     <h1>Text Analyzer</h1>
   </header>
 
+ 
+
   <main>
-    <section class="allElements">
+    <section class="indicatorsSection">
       <ul class="list" id="aboveList">
         <li class="elements">
-          caracteres: <span id="characters"> </span>
+          characters: <span id="characters"> </span>
         </li>
         <li class="elements">
-          caracteres sin espacios: <span id="charactersWithoutSpaces"> </span>
+          characters Without spaces: <span id="charactersWithoutSpaces"> </span>
          </li>
         <li class="elements">
-          palabras:  <span id="words"> </span>
+          words:  <span id="words"> </span>
         </li>
       </ul>
-      <ul class="list">
+      <ul class="list" id="bottomList">
         <li class="elements">
-          números: <span id="numbers"> </span> 
+          numbers: <span id="numbers"> </span> 
         </li>
         <li class="elements">
-          suma números: <span id="sumOfNumbers"> </span> 
+          sum Of numbers: <span id="sumOfNumbers"> </span> 
         </li>
         <li class="elements">
-          promedio longitud palabras: <span id="average"> </span> 
+          average word length: <span id="average"> </span> 
         </li>
       </ul>
-      <textarea name="user-input" cols="70" rows="5" placeholder="Aquí puedes escribir tu texto..."></textarea> 
+    </section> 
+    <section class="textareaSection">
+      <textarea name="user-input" cols="70" rows="5" placeholder="Write the text you want to analyze..."></textarea> 
+      <button id="reset-button">Reset</button>      
     </section>
-    
-    <!-- <section>      
-      <textarea name="user-input" cols="70" rows="5" placeholder="Aquí puedes escribir tu texto..."></textarea>         
-    </section> -->
-
-    <button id="reset-button">limpiar texto</button>
-        
   </main>
 
   <footer>
-    <p id="paragraph">Web Dev Paty Chavez Laboratoria 2023</p>
+    <p id="paragraph">Web Dev Paty Chavez / Laboratoria 2023</p>
   </footer>
-
-
-
-
 
   <script src="index.js" type="module"></script>
   
