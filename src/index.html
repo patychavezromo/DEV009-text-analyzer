@@ -9,33 +9,46 @@
 
 <body>
   <header>
-    <h1>Analizador de texto</h1>
+    <h1>Text Analyzer</h1>
   </header>
 
   <main>
-    <section>
-      <ul class="list" style="height: 300px;width: 1100px;">
-        <li class="elements">caracteres: <span id="characters"> </span></li>
-        <li class="elements">caracteres sin espacios: <span id="charactersWithoutSpaces"> </span> </li>
-        <li class="elements">palabras:  <span id="words"> </span></li>
-        <li class="elements">números: <span id="numbers"> </span> </li>
-        <li class="elements">suma números: <span id="sumOfNumbers"> </span> </li>
-        <li class="elements">promedio longitud palabras: <span id="average"> </span> </li>
+    <section class="allElements">
+      <ul class="list" id="aboveList">
+        <li class="elements">
+          caracteres: <span id="characters"> </span>
+        </li>
+        <li class="elements">
+          caracteres sin espacios: <span id="charactersWithoutSpaces"> </span>
+         </li>
+        <li class="elements">
+          palabras:  <span id="words"> </span>
+        </li>
       </ul>
-
-      
+      <ul class="list">
+        <li class="elements">
+          números: <span id="numbers"> </span> 
+        </li>
+        <li class="elements">
+          suma números: <span id="sumOfNumbers"> </span> 
+        </li>
+        <li class="elements">
+          promedio longitud palabras: <span id="average"> </span> 
+        </li>
+      </ul>
+      <textarea name="user-input" cols="70" rows="5" placeholder="Aquí puedes escribir tu texto..."></textarea> 
     </section>
     
-    <section>      
+    <!-- <section>      
       <textarea name="user-input" cols="70" rows="5" placeholder="Aquí puedes escribir tu texto..."></textarea>         
-    </section>
+    </section> -->
 
     <button id="reset-button">limpiar texto</button>
         
   </main>
 
   <footer>
-    <p>Desarrollado por Patricia Araceli Chávez Romo.</p>
+    <p id="paragraph">Web Dev Paty Chavez Laboratoria 2023</p>
   </footer>
 
 
