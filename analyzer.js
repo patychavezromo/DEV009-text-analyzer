@@ -1,15 +1,15 @@
 const analyzer = {  
   getWordCount: (text) => {
     //TODO: esta función debe retornar el recuento de palabras que se encuentran en el parámetro `text` de tipo `string`.
-    const arrayStringOrigin= text.split(' ');
-    const filteredArray= [];
-    for(let i=0; i<arrayStringOrigin.length; i++){
-      const currentString= arrayStringOrigin[i];
-      if(currentString.length>0){
-        filteredArray.push(currentString);      
+    const allWords= text.split(' ');
+    const allWordsNotEmpty= [];
+    for(let i=0; i<allWords.length; i++){
+      const currentWord= allWords[i];
+      if(currentWord.length>0){
+        allWordsNotEmpty.push(currentWord);      
       }
     }
-    const totalWords= filteredArray.length;
+    const totalWords= allWordsNotEmpty.length;
     return totalWords;
   },
 
@@ -21,17 +21,18 @@ const analyzer = {
 
   getCharacterCountExcludingSpaces: (text) => {
     //TODO: esta función debe retornar el recuento de caracteres excluyendo espacios y signos de puntuación que se encuentran en el parámetro `text` de tipo `string`.
-    const filteredString= text.replace (/[^a-zA-Z0-9]/g, '');
-    const totalCharactersWithoutSpaces= filteredString.length;
+    const getCharactersWithoutSpacesOrSigns= text.replace (/[^a-zA-Z0-9]/g, '');
+    const totalCharactersWithoutSpaces= getCharactersWithoutSpacesOrSigns.length;
     return totalCharactersWithoutSpaces;
   },
   getAverageWordLength: (text) => {    
     //TODO: esta función debe retornar la longitud media de palabras que se encuentran en el parámetro `text` de tipo `string`.
-    const filteredString=text.split(/\s+/).join('');
-    const totalCharacteresWithoutSpaces=filteredString.length;
+    const CharactersWithOutSpaces=text.split(/\s+/).join('');
+    const totalCharacteresWithoutSpaces=CharactersWithOutSpaces.length;
+    
     let average=0;
     
-    const allWords= text.split(' ');
+    const allWords= text.split(/\s+/);
     const allWordsNotEmpty= [];
     for(let i=0; i<allWords.length; i++){
       const currentWord= allWords[i];
@@ -47,7 +48,6 @@ const analyzer = {
     average=parseFloat(average.toFixed(2));
     
      
-
     return average;
 
   },

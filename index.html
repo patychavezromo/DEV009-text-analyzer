@@ -8,39 +8,86 @@
 </head>
 
 <body>
+
   <header>
-    <h1>Analizador de texto</h1>
+    <h1>Text Analyzer</h1>
   </header>
 
+ 
+
   <main>
-    <section>
-      <ul class="list" style="height: 300px;width: 1100px;">
-        <li class="elements">caracteres: <span id="characters"> </span></li>
-        <li class="elements">caracteres sin espacios: <span id="charactersWithoutSpaces"> </span> </li>
-        <li class="elements">palabras:  <span id="words"> </span></li>
-        <li class="elements">números: <span id="numbers"> </span> </li>
-        <li class="elements">suma números: <span id="sumOfNumbers"> </span> </li>
-        <li class="elements">promedio longitud palabras: <span id="average"> </span> </li>
-      </ul>
+    <!-- <section class="mainSection">
+      <section class="indicatorsSection">
+        <ul class="list" id="aboveList">
+          <li class="elements">
+            Characters: <span id="characters"> </span>
+          </li>
+          <li class="elements">
+            Characters Without spaces: <span id="charactersWithoutSpaces"> </span>
+           </li>
+          <li class="elements">
+            Words:  <span id="words"> </span>
+          </li>
+        </ul>
+        <ul class="list" id="bottomList">
+          <li class="elements">
+            Numbers: <span id="numbers"> </span> 
+          </li>
+          <li class="elements">
+            Sum of numbers: <span id="sumOfNumbers"> </span> 
+          </li>
+          <li class="elements">
+            Average word length: <span id="average"> </span> 
+          </li>
+        </ul>
+      </section> 
+      <section class="textareaSection">
+        <textarea name="user-input" cols="70" rows="5" placeholder="Write the text you want to analyze..."></textarea> 
+        <button id="reset-button">Reset</button>      
+      </section>
+    </section> -->
 
-      
+    <section class="mainSection">
+      <section class="indicatorsSection">
+        <ul class="list">
+          <li class="elements">
+            Characters: <span id="characters"> </span>
+          </li>
+          <li class="elements">
+            Characters Without spaces: <span id="charactersWithoutSpaces"> </span>
+           </li>
+          <li class="elements">
+            Words:  <span id="words"> </span>
+          </li>
+          <li class="elements">
+            Numbers: <span id="numbers"> </span> 
+          </li>
+          <li class="elements">
+            Sum of numbers: <span id="sumOfNumbers"> </span> 
+          </li>
+          <li class="elements">
+            Average word length: <span id="average"> </span> 
+          </li>
+        </ul>
+      </section> 
+      <section class="textareaSection">
+        <textarea name="user-input" cols="70" rows="5" placeholder="Write the text you want to analyze..."></textarea> 
+        <button id="reset-button">Reset</button>      
+      </section>
     </section>
-    
-    <section>      
-      <textarea name="user-input" cols="70" rows="5" placeholder="Aquí puedes escribir tu texto..."></textarea>         
+    <section class="socialMedia">
+      <a href="https://www.linkedin.com/in/patricia-araceli-ch%C3%A1vez-romo-925a85251/" target="_blank">
+        <img src="./imagenes/in.png" alt="logoLinkedin" class="logoLinkedin">
+      </a>
+      <a href="https://github.com/patychavezromo" target="_blank">
+        <img src="./imagenes/github.png" alt="logoGithub" class="logoGithub">
+      </a>
     </section>
-
-    <button id="reset-button">limpiar texto</button>
-        
   </main>
 
   <footer>
-    <p>Desarrollado por Patricia Araceli Chávez Romo.</p>
+    <p>Web Dev Paty Chavez Laboratoria 2023</p>
   </footer>
-
-
-
-
 
   <script src="index.js" type="module"></script>
   

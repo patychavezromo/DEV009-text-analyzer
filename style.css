@@ -1,72 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 
 body{
-    background-image: url(./imagenes/fondo2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+    background: black;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
 }
+
+header{
+    position: absolute;
+    top: 3rem;
+    right: 40rem;
+}
+
+h1{
+    font-size: 3rem;
+    text-shadow: 0 0 5px violet, 0 0 15px violet, 0 0 30px violet, 0 0 50px violet;
+}
+
+main{
+    background-color: #fff;
+}
+
+.mainSection{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.indicatorsSection{
+    position: absolute;
+    top: 12rem;
+    left: 12rem;
+    background-color: whitesmoke;
+    color: black;
+    width: 72rem;
+    border-radius: 5px; 
+
+
+    color: #fff;
+    text-decoration: none;
+    /* text-transform: uppercase; */
+    font-size: 18px;
+    letter-spacing: 2px;
+    background: linear-gradient(90deg, #755bea, #ff72c0);
+    padding-right: 1rem;
+    
+}
+
+
+.list{
+    width: 72rem;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem; 
+    padding: 0.5rem;   
+}
+
+.elements {
+    margin-right: 0.5rem; 
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.textareaSection {
+    position: absolute;
+    top: 19rem; 
+    left: 27rem;
+}
+
+textarea[name="user-input"]{
+    width: 40rem;
+    height: 14rem;
+    padding: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#reset-button{
+    position: absolute;
+    top: 17rem;
+    left: 35rem;
+    width: 7rem;
+    height: 2rem;
+    padding: 12px, 36px;
+    margin: 10px 0;
+    color: #fff;
+    text-decoration: none;
+    /* text-transform: uppercase; */
+    font-size: 18px;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    background: linear-gradient(90deg, #755bea, #ff72c0);
+}
+
+#reset-button:hover{
+    text-shadow: 0 0 5px rgb(43, 156, 226), 0 0 15px rgb(43, 156, 226), 0 0 30px rgb(43, 156, 226), 0 0 50px rgb(43, 156, 226);
+}
+
+footer{
+    position: absolute;
+    bottom: 1rem;
+    right: 2rem;
+}
+
+.logoLinkedin{
+    width: 1.5rem;
+    position: absolute;
+    top: 39rem;
+    right: 2rem;
+}
+
+.logoGithub{
+    width: 1.5rem;
+    position: absolute;
+    top: 39rem;
+    right: 5rem;
+}
+
+
+/* body{
+    display: flex;
+    background-color: #D7DBDD;
+    margin: 0;
+    padding: 0;
+    flex-direction: column; 
+    min-height: 100vh;
+    justify-content: center;
+}
+
 
 
 header {
     text-align: center; 
-    font-size: 50px;
-    text-shadow: #555 2px 2px 3px;
-    color: #e7e7ef;
-    background: #3925c4bf;
-    margin: 2% 20% 2% 20%;
-    border-radius: 20px;
-    border: solid 5px #4e155dbb;    
+    font-size: 1.5rem;
+    color: black;
 }
 
 
 
-textarea[name="user-input"]{    
-    font-size: 50px;
+
+textarea{    
+    font-size: 1rem;
     color: #333333;
-    background-color: #dbeade8f;
+    background-color: whitesmoke;
     margin: auto;
+    margin-top: 4rem;
     display: block;
-    border-radius: 20px;
-    text-align: center;
-    font-style: italic;
+    border-radius: 10px;
+    text-align: justify;
+    font-style: arial;
     border: solid 5px #4e155dbb;
+    padding: 1rem;
+    height: 10rem;
 }
 
 
-.list {  
-    list-style-type: none;
-    margin: 5% auto 1% auto;
-    padding: 0;
-    text-align: center;
-    color: #333333;
+.list { 
+    display:flex; 
+    gap: 5rem;
+    flex-wrap: wrap; 
+    justify-content: center;
 }
+
+
 
 #reset-button {
-    margin: 1% auto 5% auto;
-    display: block;
-    color-scheme: dark;
-    font-size: 50px;
-    border-radius: 15px;
-    background-color: #46800078;
-    text-align: center;
-    border: solid 5px #155d1d;
+    position: absolute;
+    left: 75rem;
+    top: 29rem;
+    border-radius: 5px;
+    height: 3rem;
+    width: 5rem;
 }
 
 .elements{
-    display: inline-block;
-    background-color: #d4904745;
-    border-radius: 5px;
-    border: solid 2.5px #4e155dbb;
-    font-size: 50px;
+    list-style: none;
+    font-size: 1rem;
 }
 
 footer {
-    background: gold;
-    font-size: 50px;
-    text-align: center;
-    color: #faf3f3;
-    background-color: #2d301f6b;
-    font-style: italic;
+    background: #333333;
+    height: 5rem;
+    margin-bottom: 0;
+ 
+}
+
+#paragraph{
+    color: whitesmoke;
 }
 
 #characters {
@@ -81,11 +211,7 @@ footer {
     border-radius: 15px;
 }
 
-#words {
-    color:#333333;
-    background: #f5f4f7;
-    border-radius: 15px;
-}
+
 
 #numbers {
     color:#333333;
@@ -103,4 +229,4 @@ footer {
     color:#333333;
     background: #f5f4f7;
     border-radius: 15px;
-}
+} */
